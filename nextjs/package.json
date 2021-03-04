@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "next -p 3001",
     "build": "next build",
-    "start": "next start -p 3001"
+    "start": "next start -p 3001",
+    "mob-build": "next build && next export"
   },
   "license": "MIT",
   "dependencies": {
